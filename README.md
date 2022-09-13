@@ -1,6 +1,8 @@
-# php_image
-Resimleri kolay ölçülendirme
-
+# PHP ile Kolay Resim İşlemleri
+<br /><br />
+## Örnek
+### php
+```php
 <?php
 include("lib/class.image.php");
 
@@ -37,3 +39,4 @@ $resim->resize(450, 450);
 $resim->save("img/test_resize.jpg", 60);
 
 ?>
+```
